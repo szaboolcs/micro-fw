@@ -1,0 +1,30 @@
+
+{
+    "name": "szaboolcs/micro-fw",
+    "description": "Micro PHP Framework",
+    "keywords": ["framework"],
+    "homepage": "https://github.com/szaboolcs/micro-fw",
+    "type": "framework",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Szabolcs Szabo",
+            "email": "szaboolcs@gmail.com",,
+            "role": "Founder and project lead"
+        },
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "bower-asset/jquery": "2.1.*@stable | 1.11.*@stable",
+        "bower-asset/jquery.inputmask": "3.1.*",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+    },
+    "autoload": {
+    	"psr-4": {
+    		"mf\\": ""
+    	}
+    }
+}
